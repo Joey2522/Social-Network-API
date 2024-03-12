@@ -1,0 +1,29 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joey2522/Social-Network-API.git"
+  },
+  "author": "Joey Porter",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed"
+  },
+  "bugs": {
+    "url": "https://github.com/Joey2522/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/Joey2522/Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1",
+    "nodemon": "^3.1.0"
+  }
+}
